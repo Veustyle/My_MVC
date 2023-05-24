@@ -1,0 +1,132 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+h2, p {
+    text-align: center;
+}
+/*********** NAVBAR ***************/
+.header {
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.header a {
+    padding: 2px;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+}
+.header a:visited {
+    color: white;
+}
+/*********** CARDS ***************/
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.card-container {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    position: relative;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 440px;
+    overflow-wrap: break-word;
+}
+.card-full {
+    position: relative;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+    width: 80%;
+    overflow-wrap: break-word;
+}
+.card-full .card-content {
+    padding-bottom: 30px;
+}
+.card-date {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+}
+.card-container .previous, .card-container .next {
+    padding: 0;
+}
+button {
+    cursor: pointer;
+}
+/**************** TABLEAUX ***************/
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+th, td {
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.table-container a {
+    color: green;
+    text-decoration: none;
+}
+.table-container form input {
+    cursor: pointer;
+    background-color: #960505;
+    color: white;
+    float: right;
+}
+/**************** FORMULAIRES ***************/
+.form-container {
+    width: 100%;
+}
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form select, textarea {
+    align-self: center;
+    width: 300px;
+    margin: 10px;
+}
+textarea {
+    height: 100px;
+}
+/*********** FOOTER ***************/
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.footer p {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+/*********** AUTRES ***************/
+.card-container a {
+    padding: 2px;
+    margin: 2px;
+    background-color: #4f088c;
+    color: white;
+    text-decoration: none;
+}
